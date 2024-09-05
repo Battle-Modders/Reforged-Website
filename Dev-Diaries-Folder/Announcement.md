@@ -26,7 +26,7 @@ We have a grand vision and are lucky to have a team that is both dedicated and q
 - New items and contracts.
 
 ## The Team
-Our team consists of renowned members of the BB modding community.
+We have named our team "Battle Modders" and we are lucky to have among us renowned members of the BB modding community. The list below shows their names and some previous mods they have worked on:
 - **LordMidas:** Modding Standards & Utilities (MSU), Perk Trees Rework (PTR), Better Fencing, Legends
 - **Uberbagel:** PTR, Legends
 - **Darxo:** Unrecognized UI, Player Hideout
