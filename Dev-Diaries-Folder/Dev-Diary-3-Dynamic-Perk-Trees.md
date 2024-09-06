@@ -15,15 +15,22 @@ While vanilla Battle Brothers hosts a reasonable slew of perks that are well-bal
 
 In Reforged, perks are contained within Perk Groups which are divided into different Perk Group Categories. There is a baseline number of perk groups of each category allocated to a character on perk tree generation. These numbers can change, however, based on the background of the character in question. Generally speaking, backgrounds with more combat experience or those born into an advantageous life will receive more categories and therefore have larger perk trees. This results in more-expensive recruits not necessarily being better than those that are cheaper but having the unique advantage of more flexibility in perk choice and development.
 
-During a character's creation, the character-specific perk tree is created by weighted random rolling. The chance of a character rolling a certain perk group is affected by the character's background, his traits, his talents, and any previously rolled perk groups during the perk tree generation. This is a deep and complex process and is intended to create thematic perk trees for each character and give each character his own identity.
-
 The perk groups themselves have been meticulously designed to adhere to a certain theme, while granting unique offensive and defensive capabilities for a myriad of builds.
+
+During a character's creation, the character-specific perk tree is created by weighted random rolling. This is a deep and complex process and is intended to create thematic perk trees for each character and give each character his own identity. An overview of the process is as follows:
+
+1. First of all any Exclusive perk groups assigned to a character's background are added. Also all General perks are added.
+2. Then we roll Perk Groups from Perk Group Categories. This happens in the order of: Shared, Weapon, Armor, Fighting Styles. A character continues to roll Perk Groups from a category until the maximum allowed perk groups from that category for that character are assigned. Then it moves to the next category. Each subsequently rolled perk group's chance is influenced by previously rolled perk groups during this process. At no point is this process completely random - it is always influenced by weights and multipliers based on background, traits, talents and previously rolled groups.
+3. Special perks and perk groups are rolled and a character has a chance to get one or more of these depending on individual criteria defined for each individual special perk group.
 
 ### Ease of Use
 The user can hover over a perk in a character's perk tree and hold down the Shift button to highlight all other perks belonging to that perk's group. Additionally, in the tooltip of a perk, the perk groups that this perk belongs to are shown at the bottom. These are in the form of nested tooltips and hovering over the perk group's name will open an additional tooltip showing the details of that perk group.
 
 ![[assets/images/DynamicPerks-ShowingPerkGroupInTooltip-1.png]]
 ![[assets/images/DynamicPerks-ShowingPerkGroupInTooltip-2.png]]
+
+### Recruit Tryout
+After tryout, a potential recruit's perk groups are shown on the recruitment screen (screenshots at the end of this diary). A user can mouse over each of these perk groups to get a tooltip showing the details of that perk group. Similarly, the entire perk tree of a recruit can also be seen on the recruitment screen and all the perks can be moused over to see their tooltips (screenshots at the end of this diary).
 
 ## Perk Group Categories
 ### Exclusive
